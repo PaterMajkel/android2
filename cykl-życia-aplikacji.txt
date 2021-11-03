@@ -1,0 +1,20 @@
+otworzenie aplikacji- onCreate, onResume
+cofnięcie - onPause, onStop, onDestroy
+otworzenie ponowne - onCreate, onResume
+home - onPause, onStop
+ponowne wejście z listy - onCreate, onResume 
+Samsung S20+
+(na emulatorze onCreate jest zamienione na onStart)
+
+Po obróceniu wywołane zostały: onPause, onStop, onDestroy, onStart, onResume
+
+(emulator)
+otworzenie aplikacji- onStart, onResume
+cofnięcie - onPause, onStop, onDestroy
+otworzenie ponowne - onCreate, onResume
+home - on Pause, onStop
+ponowne wejście z listy - onStart, onResume 
+cofnięcie - onPause, onStop, onDestroy
+otworzenie ponowne - onStart, onResume
+home - onPause, onStop, onSaveInstanceState
+ponowne wejście z listy - onSaveInstanceState, onStart, onResume 
